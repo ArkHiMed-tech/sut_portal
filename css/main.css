@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+nav {
+    background: #ddd;
+    border-bottom: dashed 2px #999;
+    display: flex;
+    justify-content: stretch;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    width: 50%;
+    padding: 10px 15px;
+}
+
+nav ul li a button {
+    font-size: 16px;
+    background: transparent;
+    border-radius: 8px;
+    border: none;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a button:hover {
+    background: #bbb;
+    transform: scale(1.05);
+}
+
+nav ul li a button:active {
+    transform: scale(1.1);
+}
